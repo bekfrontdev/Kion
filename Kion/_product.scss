@@ -1,0 +1,33 @@
+.box{
+    width: 560px;
+    height: 560px;
+    background-color: #F3F7F4;
+    padding: 90px;
+}
+.product-btn{
+    width: 200px;
+    height: 56px;
+    background-color: #283337;
+    color: #fff;
+    border-radius: 56px;
+    border: none;
+    transition-duration: 0.5s;
+}
+.product{
+    margin-top: 80px;
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .flexy{
+        display: block;
+    }
+    .box{
+        display: none;
+    }
+}
